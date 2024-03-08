@@ -1,0 +1,121 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width:300px;
+    border:1px solid silver;
+    height:98vh;
+    position: fixed;
+    border-top: none;
+    border-bottom: none;
+}
+.title{
+    margin:45px 25px;
+}
+.sidebar{
+width: 236px;
+margin: 45px 25px;
+font-size: 1.5em;
+}
+a{
+    display: flex;
+    align-items:center;
+    gap:25px;
+    padding: 0px 0px 25px 0px;
+    text-decoration: none;
+    color: black;
+}
+.More{
+    display: flex;
+    align-items:center;
+    gap:25px;
+    margin:50px 0px;
+}
+.homepage{
+    position:absolute;
+    left:300px;
+}
+.homepage-navbar{
+  display: flex;
+  margin-left:130px ;
+}
+.profile{
+    text-align: center;
+    margin: 10px;
+   
+}
+.profile-img{
+    width: 70px; 
+    height: 70px; 
+    border-radius: 50%; 
+    object-fit: cover; 
+    object-position: center; 
+}
+
+.posts{
+    margin-top:20px;
+    margin-left: 280px;
+}
+.post{
+    /* border:1px solid red; */
+    /* margin-top:20px;
+    margin-left: 280px; */
+    margin-bottom: 40px;
+
+}
+.post-header{
+   display: flex;
+   align-items: center;
+   margin-bottom: 10px;
+   gap:10px;
+}
+.post-img{
+    width:35px;
+    height:35px;
+    border-radius: 50%;
+}
+.posts-a{
+    position: absolute;
+    left: 250px;
+    top: 8px;
+}
+.like-section{
+    width:285px;
+    padding-right:3px;
+    display: flex;
+    position: absolute;
+    gap:20px;
+    margin-top:10px;
+}
+.bookmark{
+    position: absolute;
+    right:0px;
+}
+.comment{
+    margin-top:45px;
+}
+.like{
+    font-weight:bolder;
+    line-height: 16px;
+}
+.more{
+    color:rgb(108, 106, 106);
+}
+.comment-bar{
+    border:none;
+    width:286px;
+    position:absolute;
+    padding:2px;
+}
+.smile{
+    position: absolute;
+    right:194px;
+}
+hr{
+    width:100%;
+    color:rgb(108, 106, 106);
+    bottom:-30px;
+    position: absolute;
+}
