@@ -1,0 +1,133 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing: border-box;
+}
+.navbar{
+    width:300px;
+    border:1px solid silver;
+    height:98vh;
+    position: fixed;
+    border-top: none;
+    border-bottom: none;
+}
+.title{
+    margin:45px 25px;
+}
+.sidebar{
+width: 236px;
+margin: 45px 25px;
+font-size: 1.5em;
+}
+a{
+    display: flex;
+    align-items:center;
+    gap:25px;
+    padding: 0px 0px 25px 0px;
+    text-decoration: none;
+    color: black;
+}
+.More{
+    display: flex;
+    align-items:center;
+    gap:25px;
+    margin:50px 0px;
+}
+.search-page{
+    position:absolute;
+    left:300px;
+    top:70px;
+}
+.GooglePro{
+    margin-left: 250px;
+    gap:4px;
+}
+.top{
+    display: flex;
+    /* align-items: center; */
+}
+.top-info{
+    position: absolute;
+    left:560px;
+    top: -62px;
+    font-size: 1.3em;
+}
+.search-img{
+    border-radius: 50%;
+    width:190px;
+    height:190px;
+    object-fit: cover;
+    object-position: center;
+    border:3px solid rgb(176, 7, 128);
+}
+
+.btn{
+    display: flex;
+    align-items:center;
+    gap:15px;
+}
+.pro-btn{
+   padding:2px 5px;
+}
+button{
+    /* border:none; */
+    padding:3px 15px;
+    border-radius:6px;
+}
+.search-more{
+    margin-top:20px;
+}
+.followers{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.medium{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 75px 0px 0px;
+    gap:25px;
+}
+.first,.second,.third,.fourth,.fifth{
+    border:1px solid silver;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+.medium p{
+    text-align: center;
+    margin-top: 90px;
+}
+hr{
+ margin-top:55px;
+ width:640px;
+ margin-left: 200px;
+}
+.bottom{
+    position: absolute;
+    left:300px;
+    margin-left:105px
+}
+.bar{
+   display: flex;
+   align-items: center;
+   gap: 20px;
+    font-size: 1.2rem;
+    color: #908484;
+}
+.posts{
+    position: absolute;
+    top: 450px;
+    margin-left:200px;
+}
+.post{
+    display: flex;
+    gap:20px;
+    flex-wrap: wrap;
+}
+.post-img{
+    width:200px;
+    height:200px;
+}
